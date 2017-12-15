@@ -20,7 +20,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
     	
-    
+    //1
         return repo.findAll().toString();
     }
 
